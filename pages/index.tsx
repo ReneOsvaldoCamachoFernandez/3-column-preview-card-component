@@ -17,7 +17,7 @@ export default function Home() {
         <div className="flex flex-col xl:flex-row font-lex">
           <div className="w-full bg-[#E38826] p-[50px] ">
             <Image src={SedanIco} alt="ico" className="mb-11"></Image>
-            <h1 className="text-[#F2F2F2] font-bold mb-[33px] xl:mb-[36px] text-4xl font-big">
+            <h1 className="text-[#F2F2F2] uppercase font-bold mb-[33px] xl:mb-[36px] text-4xl font-big">
               Sedans
             </h1>
             <p className="text-[#FFFFFF]/75 font-normal mb-[33px] xl:mb-[90px]">
@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <div className="w-full bg-[#006970] p-[50px] ">
             <Image src={SuvsIco} alt="ico" className="mb-11"></Image>
-            <h1 className="text-[#F2F2F2] font-bold mb-[33px] xl:mb-[36px]  text-4xl font-big">
+            <h1 className="text-[#F2F2F2] uppercase font-bold mb-[33px] xl:mb-[36px]  text-4xl font-big">
               SUVs
             </h1>
             <p className="text-[#FFFFFF]/75 font-normal mb-[33px] xl:mb-[90px]">
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div className="w-full bg-[#004241] p-[50px] ">
             <Image src={LuxuryIco} alt="ico" className="mb-11"></Image>
-            <h1 className="text-[#F2F2F2] font-bold mb-[33px] xl:mb-[36px]  text-4xl font-big">
+            <h1 className="text-[#F2F2F2] uppercase font-bold mb-[33px] xl:mb-[36px]  text-4xl font-big">
               Luxury
             </h1>
             <p className="text-[#FFFFFF]/75 font-normal mb-[33px] xl:mb-[90px]">
